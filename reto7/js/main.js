@@ -18,13 +18,13 @@ const convertCurrency = (ammount, currency) =>
   switch (currency) 
   {
     case "dolares":
-        console.log(`Su dinero ha sido convertido a ${inputCurrency}`)
+        console.log(`Sus ${inputAmmount} euros han sido convertidos a ${inputAmmount*1.28611} ${inputCurrency}`)
         break;
     case "yenes":
-        console.log(`Su dinero ha sido convertido a ${inputCurrency}`)
+        console.log(`Sus ${inputAmmount} euros han sido convertidos a ${inputAmmount*129.852} ${inputCurrency}`)
         break;
     case "libras":
-        console.log(`Su dinero ha sido convertido a ${inputCurrency}`)
+        console.log(`Sus ${inputAmmount} euros han sido convertidos a ${inputAmmount*0.86} ${inputCurrency}`)
         break;
     default:
         console.log("No se ha podido convertir el dinero")
