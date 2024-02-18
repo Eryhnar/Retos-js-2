@@ -1,5 +1,4 @@
 
-
 let randomArray = []
 
 let minNum = 0
