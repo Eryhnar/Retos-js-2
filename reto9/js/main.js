@@ -10,7 +10,7 @@ maxNum = 9
 
 while (!parseInt(size)) 
 {
-  size = prompt("Enter the size of the board: ")
+  size = prompt("Enter the size of the array: ")
 }
 
 const fillArray = (minNum, maxNum, size) => 
